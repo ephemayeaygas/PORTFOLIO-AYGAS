@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Simple Profile Card</title>
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="pic.html">Picture</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    </header>
+
+     <form action="" id="contactForm">
+          <div class="alert">Your message sent</div>
+
+
+        
+           <h1>Contact</h1>
+        <section>
+
+          <p> <label for="name">Name:   </label>
+        <input type="text" id="name" name="name" placeholder="Juan" required>
+       <br></br></p>
+
+          
+
+       <p> <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="username@gmail.com" required>
+        <br></br></p>
+
+
+       <p> <label for="message">Message:</label>
+        <input type="message" id="message" name="message" placeholder="Enter your message" required>
+        <br></br></p>
+
+       
+        <input class="btn btn-primary" type="submit" value="Send">
+         </form>
+     </section>
+
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="contact.js"></script>
+
+

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+            align-items: center;
+
+}
+
+.navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding:1px;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+
+
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margint-left:500px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top:40px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top:30px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.worked-with {
+    margin-top: 50px;
+}
+
+.brands span {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 5px 10px;
+}
